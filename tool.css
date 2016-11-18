@@ -1,0 +1,178 @@
+.loading-outter {
+	display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    font-size: .28rem;
+    color: #fff;
+    background-color: rgba(0,14,12,0);
+    max-width: 100%;
+    z-index: 1100;
+}
+.loading-inner {
+    padding: .26rem .36rem;
+    background-color: rgba(0,14,12,.7);
+    border-radius: 4px;
+    max-width: 5rem;
+    text-align: center;
+}
+@-webkit-keyframes rotate {
+    from {-webkit-transform:rotate(0deg);}
+    to {-webkit-transform:rotate(360deg);}
+}
+.loading-gif {
+    margin: 0 auto;
+    width: .36rem;
+    height: .36rem;
+    animation: rotate 1.3s infinite linear;
+    -webkit-animation: rotate 1.3s infinite linear;
+    vertical-align: middle;
+}
+.loading-text {
+    font-size: .3rem;
+    line-height: .3rem;
+    display: inline-block;
+    margin-left: .18rem;
+    vertical-align: middle;
+}
+
+
+/******************************/
+/*******totast符层提示*********/
+/******************************/
+.totast-outter {
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    font-size: .28rem;
+    color: #fff;
+    background-color: rgba(0,14,12,0);
+    max-width: 100%;
+    z-index: 1100;
+}
+.totast-inner {
+    padding: .26rem .36rem;
+    background-color: rgba(0,14,12,.7);
+    border-radius: 4px;
+    max-width: 5rem;
+    text-align: center;
+}
+.totast-gif {
+    margin: 0 auto;
+    margin-bottom: .2rem;
+    width: .4rem;
+    height: .4rem;
+}
+.totast-text {
+    font-size: .3rem; 
+}
+
+
+
+/******************************/
+/*******totast2符层提示*********/
+/******************************/
+.totast2-outter {
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    font-size: .28rem;
+    background-color: rgba(0,0,0,.5);
+    max-width: 100%;
+    z-index: 110000000;
+}
+.totast2-inner {
+    position: relative;
+    z-index: 1000000;
+    background-color: #ffffff;
+    border-radius: 4px;
+    width: 80%;
+    text-align: center;
+    color: #222222;
+}
+.totast2-text {
+    padding: .9rem .4rem .9rem .4rem;
+    font-size: .32rem;
+    color: #222222;
+    border-bottom: 1px solid #dddddd;
+}
+.totast2-btn {
+    padding: .3rem .7rem;
+    text-align: center;
+    color: #6492E3;
+    font-size: .36rem;
+}
+
+
+/******************************/
+/*******totast3符层提示*********/
+/******************************/
+.totast3-outter {
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    font-size: .28rem;
+    background-color: rgba(0,0,0,.5);
+    max-width: 100%;
+    z-index: 1100;
+}
+.totast3-inner {
+    background-color: #ffffff;
+    border-radius: 4px;
+    width: 80%;
+    text-align: center;
+    color: #222222;
+}
+.totast3-title {
+    padding-top: .4rem;
+    font-size: .34rem;
+    color: #222222;
+}
+.totast3-text {
+    padding: .3rem .4rem .4rem .4rem;
+    font-size: .32rem;
+    line-height: .45rem;
+    border-bottom: 1px solid #eeeeee;
+    text-align: left;
+    color: #999999;
+}
+.totast3-confirm {
+    padding: .3rem 0; 
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    color: #222222;
+    font-size: .36rem;
+    border-right: 1px solid #eeeeee;
+    position: relative;
+    top: -1px;
+}
+.totast3-cancle {
+    padding: .3rem 0; 
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    color: #222222;
+    font-size: .36rem;
+        position: relative;
+    top: -1px;
+}
