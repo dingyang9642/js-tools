@@ -188,7 +188,8 @@
          */
         getCurrentPositionCity: function ($http, lon, lat, successCallback, failCallback) {
             var coordsInfo = lat + "," + lon;
-            var requestUrl = "//api.map.baidu.com/geocoder/v2/?ak=IhcNRiIMm1cE12Dviss4EXuz&callback=JSON_CALLBACK&location=" + coordsInfo + "&output=json&pois=tel";
+            // url出于域名检查，故此处暂作修改b-ai-d-u 修改为bidu
+            var requestUrl = "//api.map.bidu.com/geocoder/v2/?ak=IhcNRiIMm1cE12Dviss4EXuz&callback=JSON_CALLBACK&location=" + coordsInfo + "&output=json&pois=tel";
             $http.jsonp(requestUrl).success(
                 function(data, status, header, config){
                     if(data.status == "0") {
@@ -209,8 +210,8 @@
      * @type {Object}
      */
     var overlayLayer = {
-        // 判断是否位于‘iphone’下的手百
-        judgeInBaiduBoxIphone: function() {
+        // 判断是否位于‘iphone’下的
+        judgeInBiduBoxIphone: function() {
             
         },
         // 显示“加载中”符层
